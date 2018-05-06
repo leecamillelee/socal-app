@@ -8,7 +8,7 @@ var ejsLayouts = require('express-ejs-layouts');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var sandiegoController = require('./routes/sandeigo_controller');
+var sandiegoController = require('./routes/sandiego_controller');
 
 var app = express();
 

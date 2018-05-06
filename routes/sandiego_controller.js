@@ -1,8 +1,10 @@
 var express = require('express');
-var router = express.Router;
+var router = express.Router();
 
 router.get('/', (req, res) => {
-    res.send('index route for sandiego_controller');
+    // res.send('index route for sandiego_controller');
+    res.render('sandiego/index');
+
 })
 
 

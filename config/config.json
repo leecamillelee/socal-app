@@ -1,0 +1,17 @@
+{
+  "development": {
+    "database": "socal",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "socal_test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "database": "socal_production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
